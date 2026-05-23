@@ -417,7 +417,6 @@ p { margin: 0 0 var(--s-4); max-width: var(--measure); }
 	border-top: none;
 	padding-top: 0;
 }
-
 .cols {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -510,6 +509,9 @@ p { margin: 0 0 var(--s-4); max-width: var(--measure); }
 	column-gap: 0;
 	padding: var(--s-4) 0;
 }
+.themes-prose .theme-map li:last-child {
+	border-bottom: none;
+}
 .themes-prose .theme-map li > a {
 	grid-column: 2;
 	grid-row: 1;
@@ -569,6 +571,9 @@ p { margin: 0 0 var(--s-4); max-width: var(--measure); }
 	margin-top: var(--s-7);
 	border-top: 1px solid var(--rule);
 	scroll-margin-top: var(--s-7);
+}
+.themes-prose .theme-map + .theme-section {
+	margin-top: 0;
 }
 .themes-prose .theme-number {
 	font-family: var(--sans);
@@ -994,6 +999,7 @@ p { margin: 0 0 var(--s-4); max-width: var(--measure); }
 .explore-prose .compass {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto auto auto;
 	gap: 0;
 	border-top: 2px solid var(--ink);
 	position: relative;
@@ -1004,8 +1010,10 @@ p { margin: 0 0 var(--s-4); max-width: var(--measure); }
 	border-bottom: 1px solid var(--rule);
 	min-width: 0;
 }
-.explore-prose .compass .quad.q-tl { border-right: 1px solid var(--rule); }
-.explore-prose .compass .quad.q-bl { border-right: 1px solid var(--rule); border-bottom: none; }
+.explore-prose .compass .quad.q-tl { grid-column: 1; grid-row: 1; border-right: 1px solid var(--rule); }
+.explore-prose .compass .quad.q-tr { grid-column: 2; grid-row: 1; }
+.explore-prose .compass .quad.q-bl { grid-column: 1; grid-row: 3; border-right: 1px solid var(--rule); border-bottom: none; }
+.explore-prose .compass .quad.q-br { grid-column: 2; grid-row: 3; }
 .explore-prose .compass .quad.q-br { border-bottom: none; }
 .explore-prose .compass .quad.within {
 	background: linear-gradient(135deg, rgba(44,90,111,.05) 0%, transparent 60%);
@@ -1061,12 +1069,17 @@ p { margin: 0 0 var(--s-4); max-width: var(--measure); }
 }
 .explore-prose .compass .quad a:hover { color: var(--accent); border-bottom-color: currentColor; }
 .explore-prose .compass .center-tag {
-	position: absolute;
-	top: 50%; left: 50%;
-	transform: translate(-50%, -50%);
+	grid-column: 1 / -1;
+	grid-row: 2;
+	justify-self: center;
+	align-self: center;
+	transform: translateY(-50%);
+	position: relative;
+	z-index: 1;
 	background: var(--paper);
 	border: 1px solid var(--ink);
 	padding: 6px 12px;
+	margin: -1px 0 calc(-1 * var(--s-4));
 	font-family: var(--serif);
 	font-style: italic;
 	font-size: 1rem;
