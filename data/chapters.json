@@ -1,0 +1,681 @@
+{
+  "source_note": "Public chapter metadata for the Routledge Handbook of Water Diplomacy website.",
+  "book": {
+    "title": "Routledge Handbook of Water Diplomacy",
+    "editors": [
+      "Shafiqul Islam",
+      "Kevin Smith",
+      "Martina Klimes",
+      "Aaron Salzberg"
+    ],
+    "publisher": "Routledge",
+    "imprint": "Routledge",
+    "publisher_group": "Taylor & Francis Group",
+    "publication_year": 2026,
+    "isbn_hbk": "978-1-032-01389-3",
+    "isbn_pbk": "978-1-032-01392-3",
+    "isbn_ebk": "978-1-003-17843-9",
+    "doi": "10.4324/9781003178439",
+    "license": "CC BY-NC-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en",
+    "open_access_support": "UNESCO Intergovernmental Hydrological Programme (IHP)",
+    "chapter_doi_pattern": "10.4324/9781003178439-{n}",
+    "chapter_doi_offset_note": "Routledge assigns DOIs to each section introduction (Sections II-IX), so per-chapter DOI suffixes are not a simple chapter-number offset. Public mapping: Ch 1 -> -2, Ch 54 -> -63, Epilogue -> -64, Glossary -> -65. The Foreword has no DOI under this scheme and is served as on-site HTML."
+  },
+  "front_matter": [
+    {
+      "kind": "foreword",
+      "title": "Foreword",
+      "by": [
+        "Jan Eliasson"
+      ],
+      "page": "xviii",
+      "page_url": "/foreword/",
+      "page_url_note": "Routledge does not mint a per-section DOI for the Foreword; reproduced verbatim at /foreword/ under the book's CC BY-NC-SA 4.0 licence."
+    },
+    {
+      "kind": "acknowledgments",
+      "title": "Acknowledgments",
+      "page": "xx",
+      "page_url": "/acknowledgments/",
+      "page_url_note": "Reproduced verbatim at /acknowledgments/ under the book's CC BY-NC-SA 4.0 licence."
+    },
+    {
+      "kind": "contributors",
+      "title": "List of Contributors",
+      "page": "xi",
+      "page_url": "/contributors/",
+      "page_url_note": "Reproduced verbatim at /contributors/ (affiliations at time of press, May 2026)."
+    }
+  ],
+  "back_matter": [
+    {
+      "kind": "epilogue",
+      "title": "Epilogue: Navigating the Future of Water Diplomacy",
+      "by": [
+        "Shafiqul Islam",
+        "Kevin M. Smith",
+        "Martina Klimes",
+        "Aaron Salzberg"
+      ],
+      "page": 713,
+      "doi": "10.4324/9781003178439-64"
+    },
+    {
+      "kind": "glossary",
+      "title": "Glossary: A Guide to Key Terms in the Handbook",
+      "by": [
+        "Catherine Knox",
+        "Julian Tucker"
+      ],
+      "page": 718,
+      "doi": "10.4324/9781003178439-65"
+    },
+    {
+      "kind": "index",
+      "title": "Index",
+      "page": 728
+    }
+  ],
+  "parts": [
+    {
+      "id": "I",
+      "title": "Overview",
+      "start_page": 1,
+      "chapters": [
+        {
+          "n": 1,
+          "title": "Why We Need a Water Diplomacy Handbook",
+          "page": 3,
+          "authors": [
+            "Aaron Salzberg",
+            "Martina Klimes",
+            "Kevin M. Smith",
+            "Shafiqul Islam"
+          ],
+          "doi": "10.4324/9781003178439-2"
+        },
+        {
+          "n": 2,
+          "title": "Key Themes, Concepts, and Ideas of Water Diplomacy",
+          "page": 8,
+          "authors": [
+            "Kevin M. Smith",
+            "Shafiqul Islam",
+            "Martina Klimes",
+            "Aaron Salzberg"
+          ],
+          "doi": "10.4324/9781003178439-3"
+        },
+        {
+          "n": 3,
+          "title": "Navigating the Water Diplomacy Handbook",
+          "page": 23,
+          "authors": [
+            "Shafiqul Islam",
+            "Kevin M. Smith",
+            "Martina Klimes",
+            "Aaron Salzberg"
+          ],
+          "doi": "10.4324/9781003178439-4"
+        },
+        {
+          "n": 4,
+          "title": "A Living Handbook: Connecting Handbook Contents with the AquaPedia Case Study Database",
+          "page": 45,
+          "authors": [
+            "Melissa Landman",
+            "Renata Bolotova"
+          ],
+          "doi": "10.4324/9781003178439-5"
+        }
+      ]
+    },
+    {
+      "id": "II",
+      "title": "Water Diplomacy Themes, Concepts, and Ideas",
+      "start_page": 71,
+      "chapters": [
+        {
+          "n": 5,
+          "title": "A Hydrology Primer for Diplomats",
+          "page": 73,
+          "authors": [
+            "Scott W. Tyler",
+            "Shawn J. Wheelock"
+          ],
+          "doi": "10.4324/9781003178439-7"
+        },
+        {
+          "n": 6,
+          "title": "Water as a Source of Conflict",
+          "page": 96,
+          "authors": [
+            "Karen Meijer",
+            "Kyungmee Kim"
+          ],
+          "doi": "10.4324/9781003178439-8"
+        },
+        {
+          "n": 7,
+          "title": "Water as a Source of Cooperation",
+          "page": 108,
+          "authors": [
+            "Lynette de Silva",
+            "Aaron T. Wolf"
+          ],
+          "doi": "10.4324/9781003178439-9"
+        },
+        {
+          "n": 8,
+          "title": "Scales of Water Diplomacy",
+          "page": 116,
+          "authors": [
+            "Bruno Verdini"
+          ],
+          "doi": "10.4324/9781003178439-10"
+        },
+        {
+          "n": 9,
+          "title": "Water Diplomacy Paths: An Approach to Recognize Water Diplomacy Actions",
+          "page": 123,
+          "authors": [
+            "Marko Keskinen",
+            "Juho Haapala",
+            "Anna Huovila",
+            "Antti Rautavaara",
+            "Suvi Sojamo"
+          ],
+          "doi": "10.4324/9781003178439-11"
+        },
+        {
+          "n": 10,
+          "title": "Water Diplomacy and Third-Party Engagement",
+          "page": 133,
+          "authors": [
+            "Martina Klimes"
+          ],
+          "doi": "10.4324/9781003178439-12"
+        },
+        {
+          "n": 11,
+          "title": "Actors in Water Diplomacy: The Good, the Bad, and the Ugly",
+          "page": 150,
+          "authors": [
+            "Susanne Schmeier",
+            "Tobias von Lossow"
+          ],
+          "doi": "10.4324/9781003178439-13"
+        }
+      ]
+    },
+    {
+      "id": "III",
+      "title": "Common Water Diplomacy Challenges",
+      "start_page": 163,
+      "chapters": [
+        {
+          "n": 12,
+          "title": "Mapping the Water Diplomacy Problem Space",
+          "page": 165,
+          "authors": [
+            "Shafiqul Islam",
+            "Aaron Salzberg"
+          ],
+          "doi": "10.4324/9781003178439-15"
+        },
+        {
+          "n": 13,
+          "title": "Managing Water Diplomacy Processes",
+          "page": 179,
+          "authors": [
+            "Sebastian Kratzer",
+            "Lina Hillert"
+          ],
+          "doi": "10.4324/9781003178439-16"
+        },
+        {
+          "n": 14,
+          "title": "The Role of Scientific Uncertainties in Transboundary Water Negotiations",
+          "page": 192,
+          "authors": [
+            "Animesh K. Gain"
+          ],
+          "doi": "10.4324/9781003178439-17"
+        },
+        {
+          "n": 15,
+          "title": "The Role of Distrust in Transboundary Water Relations",
+          "page": 202,
+          "authors": [
+            "Ana Elisa Cascão"
+          ],
+          "doi": "10.4324/9781003178439-18"
+        },
+        {
+          "n": 16,
+          "title": "Creating and Distributing Benefits in Water Diplomacy",
+          "page": 215,
+          "authors": [
+            "Ram Aviram",
+            "Clive Lipchin",
+            "Adina Halevi",
+            "Austin Corona"
+          ],
+          "doi": "10.4324/9781003178439-19"
+        },
+        {
+          "n": 17,
+          "title": "The Role of Knowledge Transmission in Water Diplomacy",
+          "page": 225,
+          "authors": [
+            "Yumiko Yasuda"
+          ],
+          "doi": "10.4324/9781003178439-20"
+        },
+        {
+          "n": 18,
+          "title": "Disinformation Challenges in Water Governance and Diplomacy",
+          "page": 239,
+          "authors": [
+            "Bhanu Neupane"
+          ],
+          "doi": "10.4324/9781003178439-21"
+        }
+      ]
+    },
+    {
+      "id": "IV",
+      "title": "Tools of Water Diplomacy",
+      "start_page": 251,
+      "chapters": [
+        {
+          "n": 19,
+          "title": "Building Political Will for Water Diplomacy",
+          "page": 253,
+          "authors": [
+            "Aaron Salzberg",
+            "Ram Aviram"
+          ],
+          "doi": "10.4324/9781003178439-23"
+        },
+        {
+          "n": 20,
+          "title": "Joint Fact-Finding to Tackle Difficult Water Challenges",
+          "page": 263,
+          "authors": [
+            "Todd Schenk",
+            "Ben Roston",
+            "Kristin Rowles",
+            "Megan Rippy",
+            "Thomas Birkland",
+            "Stanley Grant"
+          ],
+          "doi": "10.4324/9781003178439-24"
+        },
+        {
+          "n": 21,
+          "title": "Modeling to Support Water Management Negotiations",
+          "page": 282,
+          "authors": [
+            "Kevin G. Wheeler"
+          ],
+          "doi": "10.4324/9781003178439-25"
+        },
+        {
+          "n": 22,
+          "title": "Mutual Gains Negotiation in Water Diplomacy",
+          "page": 293,
+          "authors": [
+            "Lawrence Susskind"
+          ],
+          "doi": "10.4324/9781003178439-26"
+        },
+        {
+          "n": 23,
+          "title": "Water Markets: Tools for Management and Diplomacy",
+          "page": 303,
+          "authors": [
+            "Rhett B. Larson"
+          ],
+          "doi": "10.4324/9781003178439-27"
+        },
+        {
+          "n": 24,
+          "title": "Game Theory: Insights for Water Diplomacy",
+          "page": 311,
+          "authors": [
+            "Marc F. Müller",
+            "Michèle C. Müller-Itten",
+            "Kaveh Madani"
+          ],
+          "doi": "10.4324/9781003178439-28"
+        },
+        {
+          "n": 25,
+          "title": "Gender Mainstreaming and Gender Transformative Approaches: Assessing Progress and Potential in Water Diplomacy",
+          "page": 322,
+          "authors": [
+            "Francesca Greco"
+          ],
+          "doi": "10.4324/9781003178439-29"
+        },
+        {
+          "n": 26,
+          "title": "The Use of Games in Water Diplomacy with Communities",
+          "page": 339,
+          "authors": [
+            "Marco A. Janssen",
+            "Raksha Balakrishna"
+          ],
+          "doi": "10.4324/9781003178439-30"
+        },
+        {
+          "n": 27,
+          "title": "International Law and Water Diplomacy",
+          "page": 348,
+          "authors": [
+            "Dinara Ziganshina"
+          ],
+          "doi": "10.4324/9781003178439-31"
+        },
+        {
+          "n": 28,
+          "title": "Conflict Systems Analysis: Integrating Climate and Water Risks",
+          "page": 358,
+          "authors": [
+            "Tobias Petrelius"
+          ],
+          "doi": "10.4324/9781003178439-32"
+        },
+        {
+          "n": 29,
+          "title": "Capacity Development for Water Diplomacy: The Experience Exchange Approach",
+          "page": 367,
+          "authors": [
+            "Virginia Lee Tice",
+            "Martina Klimes",
+            "Kerry Schneider"
+          ],
+          "doi": "10.4324/9781003178439-33"
+        },
+        {
+          "n": 30,
+          "title": "Movement Building Transformative Water Diplomacy Approaches",
+          "page": 376,
+          "authors": [
+            "Elizabeth A. Koch",
+            "Aaron T. Wolf"
+          ],
+          "doi": "10.4324/9781003178439-34"
+        }
+      ]
+    },
+    {
+      "id": "V",
+      "title": "Perspectives",
+      "start_page": 387,
+      "chapters": [
+        {
+          "n": 31,
+          "title": "The UN Watercourses Convention and Its Relevance to Water Diplomacy and Negotiated Agreements",
+          "page": 389,
+          "authors": [
+            "Alexandra Campbell-Ferrari",
+            "Luke Wilson"
+          ],
+          "doi": "10.4324/9781003178439-36"
+        },
+        {
+          "n": 32,
+          "title": "Groundwater Diplomacy: Addressing Unseen but Essential Water Resources",
+          "page": 400,
+          "authors": [
+            "Alice Aureli",
+            "Karen G. Villholth"
+          ],
+          "doi": "10.4324/9781003178439-37"
+        },
+        {
+          "n": 33,
+          "title": "Organizations as Third Parties",
+          "page": 416,
+          "authors": [
+            "Léna Salamé"
+          ],
+          "doi": "10.4324/9781003178439-38"
+        },
+        {
+          "n": 34,
+          "title": "The Human Right to Water and Its Relevance in Transboundary Contexts",
+          "page": 424,
+          "authors": [
+            "Mara Tignino",
+            "Tadesse Kebebew",
+            "Christian Bréthaut"
+          ],
+          "doi": "10.4324/9781003178439-39"
+        },
+        {
+          "n": 35,
+          "title": "Regional Perspectives on Water and Diplomacy",
+          "page": 439,
+          "authors": [
+            "Saule Ospanova",
+            "Sogol Jafarzadeh"
+          ],
+          "doi": "10.4324/9781003178439-40"
+        },
+        {
+          "n": 36,
+          "title": "Principled, Pragmatic, and Possible: Water Diplomacy in the Great Bay Estuary",
+          "page": 445,
+          "authors": [
+            "Kevin M. Smith",
+            "Shafiqul Islam"
+          ],
+          "doi": "10.4324/9781003178439-41"
+        },
+        {
+          "n": 37,
+          "title": "Neither Necessary nor Sufficient: Roles and Relevance of Enabling Conditions in Resolving Complex Water Problems at Different Scales",
+          "page": 468,
+          "authors": [
+            "Shafiqul Islam",
+            "Enamul Choudhury"
+          ],
+          "doi": "10.4324/9781003178439-42"
+        }
+      ]
+    },
+    {
+      "id": "VI",
+      "title": "Case Studies at the Transnational Scale",
+      "start_page": 479,
+      "chapters": [
+        {
+          "n": 38,
+          "title": "Türkiye's Perspective on Water Cooperation in the Euphrates-Tigris Basin",
+          "page": 481,
+          "authors": [
+            "Burcu Çallı",
+            "Tuğba Evrim Maden"
+          ],
+          "doi": "10.4324/9781003178439-44"
+        },
+        {
+          "n": 39,
+          "title": "The Complexity of Transboundary Water Negotiations: A Case Study of Afghanistan and Iran",
+          "page": 493,
+          "authors": [
+            "Mohd Faizee"
+          ],
+          "doi": "10.4324/9781003178439-45"
+        },
+        {
+          "n": 40,
+          "title": "The Salween River Basin: Navigating Transboundary Governance, Development Pressures, and Civil Society Engagement in China, Myanmar, and Thailand",
+          "page": 508,
+          "authors": [
+            "Kyungmee Kim",
+            "Nang Won Lee"
+          ],
+          "doi": "10.4324/9781003178439-46"
+        },
+        {
+          "n": 41,
+          "title": "The Jordan River Basin 70 Years After the Johnston Plan",
+          "page": 522,
+          "authors": [
+            "Shaddad Attili"
+          ],
+          "doi": "10.4324/9781003178439-47"
+        },
+        {
+          "n": 42,
+          "title": "Water Diplomacy in Support of Sustainable Development: The Case of the Sava River Basin",
+          "page": 541,
+          "authors": [
+            "Dejan Komatina"
+          ],
+          "doi": "10.4324/9781003178439-48"
+        },
+        {
+          "n": 43,
+          "title": "Factors That Contribute to Successful Diplomatic Outcomes: Case Study of the Colorado River Basin Cross-Boundary Institution",
+          "page": 557,
+          "authors": [
+            "Sharon B. Megdal"
+          ],
+          "doi": "10.4324/9781003178439-49"
+        },
+        {
+          "n": 44,
+          "title": "Failed Attempts to Conclude Water Agreements: The Case of the Silala",
+          "page": 567,
+          "authors": [
+            "Otto Spijkers"
+          ],
+          "doi": "10.4324/9781003178439-50"
+        },
+        {
+          "n": 45,
+          "title": "Safeguarding the Sundarbans Mangrove Forest: A Shared Commitment for Future India–Bangladesh Water Agreements",
+          "page": 575,
+          "authors": [
+            "Rezaur Rahman"
+          ],
+          "doi": "10.4324/9781003178439-51"
+        }
+      ]
+    },
+    {
+      "id": "VII",
+      "title": "Case Studies at the Subnational Scale",
+      "start_page": 589,
+      "chapters": [
+        {
+          "n": 46,
+          "title": "Urmia Lake Restoration Process: Challenges and Applicability of Water Diplomacy Framework",
+          "page": 591,
+          "authors": [
+            "Jalil Salimi",
+            "Mahdi Zarghami"
+          ],
+          "doi": "10.4324/9781003178439-53"
+        },
+        {
+          "n": 47,
+          "title": "Indigenous Nations, Water, and Conflict",
+          "page": 608,
+          "authors": [
+            "M. Alexander Pearl"
+          ],
+          "doi": "10.4324/9781003178439-54"
+        },
+        {
+          "n": 48,
+          "title": "Seeing Underground: Understanding Complexity in the Great Basin Groundwater Grab",
+          "page": 616,
+          "authors": [
+            "W. Todd Jarvis"
+          ],
+          "doi": "10.4324/9781003178439-55"
+        }
+      ]
+    },
+    {
+      "id": "VIII",
+      "title": "Case Studies at the Community Scale",
+      "start_page": 639,
+      "chapters": [
+        {
+          "n": 49,
+          "title": "Sukhomajri Water Management as a Coupled System: Understanding of and Adapting to Evolving Changes in System Dynamics",
+          "page": 641,
+          "authors": [
+            "Enamul Choudhury",
+            "Shafiqul Islam"
+          ],
+          "doi": "10.4324/9781003178439-57"
+        },
+        {
+          "n": 50,
+          "title": "The Role of Heritage in Understanding Community-Scale Water Diplomacy: A Case Study of the Al-Ghab Plain in Syria",
+          "page": 653,
+          "authors": [
+            "Eva Ziedan"
+          ],
+          "doi": "10.4324/9781003178439-58"
+        }
+      ]
+    },
+    {
+      "id": "IX",
+      "title": "Reflections",
+      "start_page": 673,
+      "chapters": [
+        {
+          "n": 51,
+          "title": "Ground Rules for Water Diplomacy Negotiators",
+          "page": 675,
+          "authors": [
+            "Zodwa Dlamini"
+          ],
+          "doi": "10.4324/9781003178439-60"
+        },
+        {
+          "n": 52,
+          "title": "Water Diplomacy and Transboundary Watercourses: Obstacles and Related Issues in Some Middle Eastern Cases",
+          "page": 683,
+          "authors": [
+            "Hassan Janabi"
+          ],
+          "doi": "10.4324/9781003178439-61"
+        },
+        {
+          "n": 53,
+          "title": "Hydrodiplomacy: The Case of Post-Independence Namibia",
+          "page": 695,
+          "authors": [
+            "Richard Meissner",
+            "Piet Heyns",
+            "Jeroen Warner",
+            "Jo-Ansie van Wyk"
+          ],
+          "doi": "10.4324/9781003178439-62"
+        },
+        {
+          "n": 54,
+          "title": "The Evolving Landscape of Diplomacy",
+          "page": 705,
+          "authors": [
+            "Paolo Lembo",
+            "Charlotta Sparre"
+          ],
+          "doi": "10.4324/9781003178439-63"
+        }
+      ]
+    }
+  ]
+}
