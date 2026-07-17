@@ -9,6 +9,16 @@
 	<link rel="icon" href="/favicon.ico" sizes="any">
 	<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 	<script>document.documentElement.classList.add("js");</script>
+	<!-- LCP: start the cover-image fetch before the render-blocking stylesheet.
+	     imagesrcset/imagesizes must stay byte-identical to the AVIF <source> in the
+	     homepage <picture>, or AVIF-capable browsers will download the image twice.
+	     Non-AVIF browsers skip this hint (type mismatch) and use the WebP/JPEG sources. -->
+	<link rel="preload" as="image" type="image/avif" fetchpriority="high"
+	      imagesrcset="assets/images/cover/cover-handbook-480.avif 480w,
+	                   assets/images/cover/cover-handbook-800.avif 800w,
+	                   assets/images/cover/cover-handbook-1200.avif 1200w,
+	                   assets/images/cover/cover-handbook-1800.avif 1800w"
+	      imagesizes="(min-width: 820px) 380px, calc(100vw - 3rem)">
 	<link rel="stylesheet" href="styles.css?v=20260523-pages">
 
 	<meta name="citation_title" content="Routledge Handbook of Water Diplomacy">
