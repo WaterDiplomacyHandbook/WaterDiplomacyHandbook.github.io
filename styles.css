@@ -5,6 +5,8 @@
    =========================================================== */
 
 :root {
+	color-scheme: light;
+
 	/* Palette pulled from the cover --------------------------- */
 	--ink:       #1a1612;   /* warm black, the title-band black on the cover */
 	--ink-soft:  #2c2520;
@@ -119,7 +121,7 @@ a:hover, a:focus { color: var(--accent-hi); }
 	margin-bottom: -1px;
 }
 .site-nav a:hover, .site-nav a:focus { color: #fff; }
-.site-nav a[aria-current="page"] {
+.site-nav a[aria-current="page"], .site-nav a[aria-current="true"] {
 	border-bottom-color: var(--accent);
 	color: #fff;
 }
@@ -312,6 +314,9 @@ p { margin: 0 0 var(--s-4); max-width: var(--measure); }
 }
 @media (min-width: 820px) {
 	.home-grid { grid-template-columns: minmax(280px, 380px) 1fr; gap: var(--s-8); }
+}
+@media (max-width: 819px) {
+	.home-grid figure { order: 2; }
 }
 .home-grid figure { margin: 0; }
 .home-grid figure picture,
@@ -1293,7 +1298,7 @@ p { margin: 0 0 var(--s-4); max-width: var(--measure); }
 	.site-nav li { border-top: 1px solid rgba(255,255,255,.12); }
 	.site-nav li:first-child { border-top: none; }
 	.site-nav a { display: block; padding: var(--s-3) 0; border-bottom: none; }
-	.site-nav a[aria-current="page"] {
+	.site-nav a[aria-current="page"], .site-nav a[aria-current="true"] {
 		border-bottom: none;
 		border-left: 3px solid var(--accent);
 		padding-left: var(--s-3);

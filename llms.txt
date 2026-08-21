@@ -1,0 +1,19 @@
+# The Water Diplomacy Handbook
+
+> Open-access companion site for the Routledge Handbook of Water Diplomacy
+> (Islam, Smith, Klimes & Salzberg, eds., Routledge 2026). 54 chapters, 80+
+> contributors, CC BY-NC-SA 4.0. Free ebook: https://doi.org/10.4324/9781003178439
+
+## Core pages
+
+- [Table of contents](https://waterdiplomacyhandbook.com/chapters/): all 54 chapters with authors and verified per-chapter DOIs
+- [Explore by role or factor](https://waterdiplomacyhandbook.com/explore/): guided reading pathways
+- [Key themes](https://waterdiplomacyhandbook.com/key-themes/): five cross-cutting themes
+- [Brief overview](https://waterdiplomacyhandbook.com/brief-overview/): the handbook's vision, audience, contributors, and editors
+- [Detailed overview](https://waterdiplomacyhandbook.com/detailed-overview/): why the handbook exists, who it is for, and how it is organized
+- [Foreword by Jan Eliasson](https://waterdiplomacyhandbook.com/foreword/)
+- [Contributors](https://waterdiplomacyhandbook.com/contributors/)
+
+## Machine-readable data
+
+- [chapters.json](https://waterdiplomacyhandbook.com/data/chapters.json): canonical TOC with verified DOIs. NOTE: chapter DOIs are NOT chapter-number+1 (section introductions consume DOI slots). Use this file; do not compute DOIs.
