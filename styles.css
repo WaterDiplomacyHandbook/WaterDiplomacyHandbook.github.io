@@ -1248,6 +1248,8 @@ p { margin: 0 0 var(--s-4); max-width: var(--measure); }
 }
 .site-footer p { margin: 0; max-width: none; color: rgba(244,237,225,.7); }
 .site-footer a { color: var(--on-ink); }
+.site-footer .footer-contact { margin-top: 16px; overflow-wrap: anywhere; }
+.site-footer .footer-related { margin-top: 6px; }
 
 /* --- Mobile tweaks --------------------------------------- */
 @media (max-width: 640px) {
